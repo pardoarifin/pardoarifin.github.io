@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papan Ular Tangga</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="ladder.css">
+    <link rel="stylesheet" href="snakes.css">
+    <link rel="stylesheet" href="dice.css">
+    <link rel="stylesheet" href="head-icon.css">
+    <link rel="stylesheet" href="winnerAlert.css">
+</head>
+<body>
+  
+  
+    <div class="board"></div>
+    
+    <div id="ladder-container"></div>
+    
+    <div id="snakes"></div>
+    
+    <div id="dice">
+        <div class="cube" id="cube">
+          <img src="/images/dadu1.jpg" alt="" class="face"></img>
+          <img src="/images/dadu2.jpg" alt="" class="face"></img>
+          <img src="/images/dadu3.jpg" alt="" class="face"></img>
+          <img src="/images/dadu4.jpg" alt="" class="face"></img>
+          <img src="/images/dadu5.jpg" alt="" class="face"></img>
+          <img src="/images/dadu6.jpg" alt="" class="face"></img>
+        </div>
+    </div>
+    <div class="pieces">
+        <img class="pion" src="/images/red-piece.png" alt="">
+        <img class="pion" src="/images/green-piece.png" alt="">
+    </div>
+    
+    <button class="diceButton" onclick="rollDice()"></button>
+    <div class="player">Player</div>
+    <div class="computer">Computer</div>
+    
+  <div class="heads">
+    <div class="headIcon">
+        <div class="eye"></div>
+        <div class="eye"></div>
+        <div class="eyelid"></div>
+        <div class="eyelid"></div>
+        <div class="mouth"></div>
+    </div>
+      
+    <div class="headIcon">
+          <div class="eye"></div>
+          <div class="eye"></div>
+          <div class="eyelid"></div>
+          <div class="eyelid"></div>
+          <div class="mouth"></div>
+    </div>
+   
+  </heads>
+    <div class="alertContainer"></div>
+    <img src="/images/comwin.png" class="winnerAlert">
+    
+  <script src="background.js"></script>
+  <script src="ladder.js"></script>
+  <script src="snakes.js"></script>
+  <script src="movement.js"></script>
+  <script src="condition.js"></script>
+  
+</body>
+</html>

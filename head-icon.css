@@ -1,0 +1,157 @@
+.headIcon{
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      transform: translate(-50%);
+      border-radius: 50%;
+      
+    }
+    
+.eye{
+      position: absolute;
+      width: 25%;
+      height: 33%;
+      border-radius: 50%;
+      border: 1px solid;
+      
+      }
+
+.headIcon:nth-child(1) .eye{
+      background: radial-gradient(circle, #000 0%, #000 30%, #eee 30%);
+      animation: pupil 10s forwards infinite;
+}
+
+.headIcon:nth-child(2) .eye {
+  background: radial-gradient(circle, #000 0%, #000 30%, #eee 30%);
+  animation: pupil2 8s forwards infinite;
+}
+    
+.eye:nth-child(1){
+      left: 30%;
+      top: 40%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+.eye:nth-child(2) {
+      left: 70%;
+      top: 40%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+.eyelid{
+      position: absolute;
+      width: 25%;
+      height: 33%;
+      border-radius: 50%;
+      border: 1px solid;
+      background: transparent;
+      animation: blink 3.5s infinite;
+      
+    }
+
+.headIcon:nth-child(2) .eyelid{
+      animation: blink2 3s infinite;
+}
+    
+.eyelid:nth-child(3) {
+      left: 30%;
+      top: 40%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+.eyelid:nth-child(4){
+      left: 70%;
+      top: 40%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    
+.mouth{
+      position: absolute;
+      left: 50%;
+      top: 50%; /*62%*/
+      transform: translate(-50%);
+      width: 50%;
+      height: 30%;
+      border-radius: 50%;
+      border-bottom: 2px solid #000;
+      /*background: linear-gradient(to bottom, transparent 0%, transparent 50%, #ccc 50%, #fff 70%, #950F0F 70%);*/
+    }
+    
+@keyframes blink {
+  
+  89%{
+    background: transparent;
+  }
+  90% {
+    background: linear-gradient(to bottom, #266A0C 0%, #215A0B 50%, transparent 50%);
+  }
+  90.85% {
+    background: linear-gradient(to bottom, #266A0C 0%, #215A0B 100%);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@keyframes blink2 {
+  
+  89%{
+    background: transparent;
+  }
+  90% {
+    background: linear-gradient(to bottom, #DD4242 0%, #960B0B 50%, transparent 50%);
+  }
+  90.85% {
+    background: linear-gradient(to bottom, #DD4242 0%, #960B0B 100%);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@keyframes pupil {
+  25%{
+    background: radial-gradient(circle, #000 0%, #000 30%, #eee 30%);
+  }
+  50%{
+    background: radial-gradient(circle at 70% 50%, #000 0%, #000 30%, #eee 30%);
+  }
+  
+  75%{
+    background: radial-gradient(circle, #000 0%, #000 30%, #eee 30%);
+  }
+  
+  100%{
+    background: radial-gradient(circle at 50% 30%, #000 0%, #000 30%, #eee 30%);
+  }
+}
+
+@keyframes pupil2 {
+  25%{
+    background: radial-gradient(circle, #000 0%, #000 30%, #eee 30%);
+  }
+  50%{
+    background: radial-gradient(circle at 30% 50%, #000 0%, #000 30%, #eee 30%);
+  }
+  
+  75%{
+    background: radial-gradient(circle, #000 0%, #000 30%, #eee 30%);
+  }
+  
+  100%{
+    background: radial-gradient(circle at 50% 30%, #000 0%, #000 30%, #eee 30%);
+  }
+}
+
+.headIcon:nth-child(1){
+  left: 60px;
+  top: 640px;
+  background: radial-gradient(circle, #44BD16, #1E5708);
+}
+
+.headIcon:nth-child(2) {
+  left: 340px;
+  top: 640px;
+  background: radial-gradient(circle, #DD4242, #960B0B);
+}

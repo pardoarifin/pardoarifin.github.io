@@ -1,0 +1,102 @@
+#snakes{
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  width: 380px;
+  height: 520px;
+  background:none;
+}
+.snake01{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 6%;
+  top: 2%;
+  transform: rotate(-20deg);
+}
+
+.snake02 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  transform: rotate(40deg);
+}
+
+.snake03 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 90px;
+  top: 140px;
+  transform: rotate(30deg);
+}
+
+.snake04 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 70px;
+  top: 420px;
+  transform: rotate(-10deg);
+  
+}
+
+.snake05 {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  left: 15px;
+  top: 165px;
+  transform: rotate(-15deg) scaleX(-1);
+}
+
+.snake06 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 235px;
+  top: 270px;
+  transform: rotate(-10deg) scaleX(-1);
+}
+
+.snake07 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 10px;
+  top: 327px;
+  transform: rotate(-10deg) scaleX(-1);
+}
+
+.snake08 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 125px;
+  top: 105px;
+  transform: rotate(-70deg) scaleX(-1);
+}
+
+.snake09 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 57%;
+  top: 65%;
+  transform: rotate(-35deg) scaleX(1);
+}
+
+.snake010 {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 55%;
+  top: 2%;
+  transform: rotate(-10deg) scaleX(1);
+}
+
+

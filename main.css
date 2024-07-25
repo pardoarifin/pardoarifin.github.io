@@ -1,0 +1,85 @@
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background: #fafafa;
+}
+        
+.board {
+  position: absolute;
+  border: 5px solid #A12CCC;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(10, 37px);
+  grid-template-rows: repeat(10, 50px);
+  gap: 1px;
+  box-sizing: border-box;
+}
+        
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 37px;
+  height: 50px;
+  font-size: 14px;
+  
+}
+
+
+.computer{
+  top: 580px;
+  left: 250px;
+  position: absolute;
+  height: 40px;
+  width: 110px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #776 ;
+  
+}
+
+.player{
+  top: 580px;
+  left: 30px;
+  position: absolute;
+  height: 40px;
+  width: 110px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 4px solid #A12CCC;
+  background: linear-gradient(45deg, #C71B64, #17B8CE, #4ACE17, #FFCA00);
+}
+
+.pieces{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    width: 388px;
+    height: 518px;
+    background:none;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+.pion{
+  width: 37px;
+  height: 40px;
+  position: absolute;
+  top: 463px;
+  left: 5px;
+  
+}
+
+.pion:nth-child(1){
+  top:463px;
+  left:5px;
+  
+}
