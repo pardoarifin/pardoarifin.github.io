@@ -26,7 +26,7 @@ const rollDice = () => {
     }, 800);
 
     setTimeout(() => {
-        const result = getResultFromDice()+97;
+        const result = getResultFromDice();
         handlePlayerTurn(result);
         expression();
         
